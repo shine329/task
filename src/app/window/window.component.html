@@ -1,0 +1,15 @@
+
+<section  style="margin-top: 20%;">
+    <h3 style="background-color: brown; color: white;"> Write Essay <countdown style="float: right;" [config]="{leftTime: 1200}"></countdown></h3>
+    <p style="color: blue;">Architectural Design</p>
+	<textarea id="tex" cols="100" rows="8" style="resize: horizontal; margin-left: 10px; " (keyup)="onKeyUp($event)"></textarea>
+<div style="border: 10px black;">
+	<div>
+	Total Word Count:	{{numberOfCharacters1}} 
+    </div>
+    <br><br>
+    <div style="float:inline-end;">
+    <button style="background-color: blue; color: white; ">restart</button> <button style="background-color: blue; color: white;">Answer</button> <button style="background-color: blue; color: white;">Feedback</button>
+</div>
+</div>
+</section>

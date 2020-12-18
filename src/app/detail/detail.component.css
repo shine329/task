@@ -1,0 +1,58 @@
+.card {
+    border: 1px solid  black;
+    width: 80%;
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 0;
+    margin-top: 15%;
+    
+    
+  }
+  
+  
+  .header {
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    align-items:left;
+    margin-left: 15px;
+    color:green;
+  }
+  
+  .body {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    align-content: flex-end;
+    margin-left: 20px;
+   
+  }
+  
+  .footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+  }
+  .row{
+    display: flex;
+   align-items: stretch;
+   height: 200px;
+   width: 100%;
+   align-content: space-between;
+   
+  }
+  
+  .mat-progress-bar{
+      margin-left: 200px;
+      margin-top: 10px;
+      width: 100%;
+      height: 20px;
+      right: 20px;
+     
+      
+  }
+  *{
+    margin-left: 20px;
+  }

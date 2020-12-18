@@ -1,0 +1,42 @@
+.card {
+    border: 1px solid  blue;
+    border-radius: 25px;
+    width: 40vw;
+    height: 40vw;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 25px;
+    margin-top: 15%;
+    margin-left: 50px;
+    
+  }
+  
+  hr  {
+    width: 100%;
+  }
+  
+  .header {
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    align-items:left;
+    margin-left: 15px;
+    color: blue;
+  }
+  
+  .body {
+    display: flex;
+    flex-grow: 1;
+    align-items: center;
+    justify-content:space-around;
+  }
+  
+  .footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 70%;
+    margin-bottom: 20px;
+    
+  }
+  

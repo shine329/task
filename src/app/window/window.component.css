@@ -1,0 +1,12 @@
+*{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+textarea{
+    width: 80%;
+    height: 200px;
+    background-color: rgb(185, 176, 176);
+}
+.container{
+    border: black 2px;
+}
